@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'NotoSans';
+	src: url(../font/NotoSans-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+	font-family: 'Degital';
+	src: url(../font/DS-DIGIT.TTF);
+}
+h1{
+    font-family: NotoSans;
+    color: #333;
+    font-size: 24px;
+}
+
+h2{
+    font-family: Degital;
+    color: #333;
+    font-size: 18px;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+} */
+
+#date_title, #display_title, #now_title {
+    text-align: center;
+}
+
+#date, #display, #clock {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
